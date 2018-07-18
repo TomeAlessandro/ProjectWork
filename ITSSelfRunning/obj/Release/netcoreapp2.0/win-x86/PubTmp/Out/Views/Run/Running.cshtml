@@ -1,0 +1,40 @@
+﻿@model int
+
+@{
+    ViewData["Title"] = "Running";
+}
+
+<h2>RUNNING</h2>
+<br />
+@Html.ActionLink("End", "EndRunning", new { IdActivity = @Model }, new { @class = "btn btn-primary btn-large" })
+<br />
+<div>
+    <div id="map" style="width:100%; height:400px">MAPPA:</div>
+</div>
+<br />
+<button onclick="startGeoL()" class="btn btn-success">Start</button>
+<button onclick="stopGeoL()" class="btn btn-success">Stop</button>
+
+<br />
+<div>
+    <div style="font-weight: bold;">TELEMETRIE:</div>
+</div>
+<div>
+    <div id="Telemetrie" style="max-height: 400px; overflow-y: auto;"></div>
+</div>
+
+<br />
+
+
+@section scripts{
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBue3agj16YcqU6_1HT9De3O1xugR51Ygk"
+            async defer></script>
+
+    <script>
+        var currentActivtyId = @Model;
+    </script>
+
+    <script src="~/js/location.js"></script>
+
+}
+

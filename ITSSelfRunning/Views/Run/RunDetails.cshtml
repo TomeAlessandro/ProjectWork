@@ -1,0 +1,81 @@
+﻿@model ITSSelfRunning.Models.ActivityDetailsViewModel
+
+@{
+    ViewData["Title"] = "RunDetails";
+}
+
+<h2>RunDetails</h2>
+
+<h3>Activity Data</h3>
+<div>
+    <p>Activity Name: @Model.ActivityName</p>
+    <p>Creation Date: @Model.CreationDate</p>
+    <p>Location: @Model.Location</p>
+    @if (Model.ActivityType == 1)
+    {<p>Activity Type: Training</p>}
+    else
+    { <p>Activity Type: Race</p>}
+    @*<p>Uri Gara: @Model.UriGara</p>*@
+</div>
+<h3>Map</h3>
+<div id="map" style="width:100%; height:400px">
+
+</div>
+
+@section scripts{
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        
+
+        function showRoute() {
+
+            var marker;
+            var marker2;
+
+            var route = [
+                @foreach(var telemetry in @Model.arrayTelemetry) {
+                    <text>
+                    {
+                        lat: @telemetry.Latitude.ToString(System.Globalization.CultureInfo.InvariantCulture),
+                        lng: @telemetry.Longitude.ToString(System.Globalization.CultureInfo.InvariantCulture)
+                    },
+                    </text>
+                }
+            ];
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: route[0].lat, lng: route[0].lng },
+                zoom: 12
+            });
+
+            map.setCenter({ lat: route[0].lat, lng: route[0].lng });
+
+            console.log(route);
+
+            marker = new google.maps.Marker({
+                position: { lat: route[0].lat, lng: route[0].lng },
+            map: map
+            });
+
+            marker2 = new google.maps.Marker({
+                position: { lat: route[route.length - 1].lat, lng: route[route.length - 1].lng },
+                map: map
+            });
+
+            var flightPath = new google.maps.Polyline({
+                path: route,
+                geodesic: true,
+                strokeColor: '#ffc266',
+                strokeOpacity: 1.0,
+                strokeWeight: 3
+            });
+
+            flightPath.setMap(map);
+        }
+
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBue3agj16YcqU6_1HT9De3O1xugR51Ygk&callback=showRoute"
+            async defer></script>
+
+}

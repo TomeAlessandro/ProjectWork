@@ -1,0 +1,15 @@
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\wwwroot\js\site.js
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\ITSSelfRunning.deps.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\ITSSelfRunning.runtimeconfig.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\ITSSelfRunning.runtimeconfig.dev.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\ITSSelfRunning.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\ITSSelfRunning.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\ITSSelfRunning.DataAccess.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x64\ITSSelfRunning.DataAccess.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x64\ITSSelfRunning.csproj.CoreCompileInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x64\UserSecretsAssemblyInfo.cs
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x64\ITSSelfRunning.AssemblyInfoInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x64\ITSSelfRunning.AssemblyInfo.cs
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x64\ITSSelfRunning.csproj.CopyComplete
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x64\ITSSelfRunning.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x64\ITSSelfRunning.pdb

@@ -1,0 +1,17 @@
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\wwwroot\js\site.js
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\ITSSelfRunning.deps.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\ITSSelfRunning.runtimeconfig.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\ITSSelfRunning.runtimeconfig.dev.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\ITSSelfRunning.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\ITSSelfRunning.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\ITSSelfRunning.DataAccess.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\ITSSelfRunning.DataAccess.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\ITSSelfRunning.csprojAssemblyReference.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\ITSSelfRunning.csproj.CoreCompileInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\UserSecretsAssemblyInfo.cs
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\ITSSelfRunning.AssemblyInfoInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\ITSSelfRunning.AssemblyInfo.cs
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\ITSSelfRunning.csproj.CopyComplete
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\ITSSelfRunning.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\win-x86\ITSSelfRunning.pdb
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\win-x86\wwwroot\js\location.js

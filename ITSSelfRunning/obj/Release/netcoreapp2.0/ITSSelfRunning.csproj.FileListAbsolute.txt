@@ -1,0 +1,17 @@
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\ITSSelfRunning.deps.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\ITSSelfRunning.runtimeconfig.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\ITSSelfRunning.runtimeconfig.dev.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\ITSSelfRunning.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\ITSSelfRunning.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\ITSSelfRunning.csproj.CoreCompileInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\ITSSelfRunning.AssemblyInfoInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\ITSSelfRunning.AssemblyInfo.cs
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\ITSSelfRunning.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\ITSSelfRunning.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\ITSSelfRunning.csprojAssemblyReference.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\wwwroot\js\site.js
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\ITSSelfRunning.DataAccess.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\ITSSelfRunning.DataAccess.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\obj\Release\netcoreapp2.0\ITSSelfRunning.csproj.CopyComplete
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning\bin\Release\netcoreapp2.0\wwwroot\js\location.js

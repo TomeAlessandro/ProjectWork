@@ -1,0 +1,186 @@
+﻿@model IEnumerable<ITSSelfRunning.Models.Activity>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Activities</h2>
+
+<p>
+    <a asp-controller="Run" asp-action="CreateTraining" class="btn btn-primary">Create new Training</a>
+</p>
+
+<p style="font-weight: bold; text-align: center;">ALLENAMENTI</p>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ActivityName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreationDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                @*<th>
+                    @Html.DisplayNameFor(model => model.ActivityType)
+                </th>*@
+                @*<th>
+                    @Html.DisplayNameFor(model => model.UriGara)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Runner_Id)
+                </th>*@
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if (item.ActivityType == 1)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ActivityName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreationDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Location)
+                        </td>
+                        <td>
+                            @if (item.Status == 0)
+                            {
+                                <p>To Be Started</p>
+                            }
+                            else if (item.Status == 1)
+                            {
+                                <p>In Progress</p>
+                            }
+                            else if (item.Status == 2)
+                            {
+                                <p>Closed</p>
+                            }
+                        </td>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.ActivityType)
+                            @if (item.ActivityType == 1)
+                            {
+                                <p>Allenamento</p>
+                            }else if (item.ActivityType == 2)
+                            {
+                                <p>Gara</p>
+                             }
+                        </td>*@
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.UriGara)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Runner_Id)
+                        </td>*@
+                        <td>
+                            @if (item.Status == 0) //To be started
+                            {
+                                @Html.ActionLink("Run", "Running", "Run", new { IdActivity = item.IdActivity }, new { @class = "btn btn-primary btn-large" })
+                            }
+                            else if (item.Status == 1) //In progress
+                            {
+                                @Html.ActionLink("View", "Running", "Run", new { IdActivity = item.IdActivity, isOpen = true }, new { @class = "btn btn-primary btn-large" })
+                            }
+                            else if (item.Status == 2) //Closed
+                            {
+                                @Html.ActionLink("Show Details", "RunDetails", "Run", new { IdActivity = item.IdActivity }, new { @class = "btn btn-primary btn-large" })
+                            }
+
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+<p style="font-weight: bold; text-align: center;">GARE</p>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ActivityName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreationDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Location)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                @*<th>
+                    @Html.DisplayNameFor(model => model.ActivityType)
+                </th>*@
+                <th>
+                    @Html.DisplayNameFor(model => model.UriGara)
+                </th>
+                @*<th>
+                    @Html.DisplayNameFor(model => model.Runner_Id)
+                </th>*@
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if (item.ActivityType == 2)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ActivityName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreationDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Location)
+                        </td>
+                        <td>
+                            @if (item.Status == 0)
+                            {
+                                <p>To Be Started</p>
+                            }
+                            else if (item.Status == 1)
+                            {
+                                <p>In Progress</p>
+                            }
+                            else if (item.Status == 2)
+                            {
+                                <p>Closed</p>
+                            }
+                        </td>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.ActivityType)
+                        </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UriGara)
+                        </td>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.Runner_Id)
+                        </td>*@
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+

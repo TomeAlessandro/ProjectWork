@@ -1,0 +1,9 @@
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\bin\Release\netstandard2.0\ITSSelfRunning.DataAccess.deps.json
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\bin\Release\netstandard2.0\ITSSelfRunning.DataAccess.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\bin\Release\netstandard2.0\ITSSelfRunning.DataAccess.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\obj\Release\netstandard2.0\ITSSelfRunning.DataAccess.csproj.CoreCompileInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\obj\Release\netstandard2.0\ITSSelfRunning.DataAccess.AssemblyInfoInputs.cache
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\obj\Release\netstandard2.0\ITSSelfRunning.DataAccess.AssemblyInfo.cs
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\obj\Release\netstandard2.0\ITSSelfRunning.DataAccess.dll
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\obj\Release\netstandard2.0\ITSSelfRunning.DataAccess.pdb
+c:\users\utente\source\repos\ITSCorriCheFaBene\ITSSelfRunning.DataAccess\obj\Release\netstandard2.0\ITSSelfRunning.DataAccess.csprojAssemblyReference.cache

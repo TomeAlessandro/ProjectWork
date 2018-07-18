@@ -1,0 +1,14 @@
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\appsettings.json
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\hostpolicy.dll
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\hostfxr.dll
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\WorkerRole.exe
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\WorkerRole.deps.json
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\WorkerRole.runtimeconfig.json
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\WorkerRole.runtimeconfig.dev.json
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\WorkerRole.dll
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\bin\Debug\netcoreapp2.0\win-x86\WorkerRole.pdb
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\obj\Debug\netcoreapp2.0\win-x86\WorkerRole.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\obj\Debug\netcoreapp2.0\win-x86\WorkerRole.AssemblyInfoInputs.cache
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\obj\Debug\netcoreapp2.0\win-x86\WorkerRole.AssemblyInfo.cs
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\obj\Debug\netcoreapp2.0\win-x86\WorkerRole.dll
+C:\Users\Utente\source\repos\ITSCorriCheFaBene\WorkerRole\obj\Debug\netcoreapp2.0\win-x86\WorkerRole.pdb
